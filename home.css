@@ -1,0 +1,85 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+body{
+    background-color:gray;
+   
+}
+header{
+    background-color: rgba(195, 153, 235, 0.77);
+    border-radius: 2%;
+}
+header h1{
+    color:rgb(136, 255, 0);
+    text-align: center;
+    font-size: 50px;
+}
+header hr{
+    color:black;
+    background-color: black;
+}
+header nav ul li{
+    display: inline-block;
+    padding:20px;
+    margin-left: 15px;
+ 
+}
+header nav ul li a{
+    background-color:lawngreen;
+    padding:7px;
+    border-radius:7px;
+}
+header nav ul li a:hover{
+    color:hotpink;
+    background-color: antiquewhite;
+}
+form marquee{
+    direction:ltr;
+    color:antiquewhite;
+    background-color:rgb(164, 133, 194);
+    padding:10px;
+    border-radius:50px;
+    width: 700px;
+    margin-left:25%;
+}
+figure{
+    border:1px solid black;
+    width:300px;
+    text-align: center;
+    background-color: lightgray;
+    box-shadow: 0 0 15px black;
+    border-radius:10%;
+    display: inline-block;
+    margin:10px;
+    justify-items: center;
+}
+form figure img{
+    width:100%;
+    border-radius: 5%;
+    cursor: pointer;
+}
+form figure figcaption{
+    padding:5px 20px;
+    font-size:20px;
+}
+#P{
+    height:200px;
+    border-radius:10%;
+}
+#D{
+    height:240px;
+    border-radius: 10%;
+}
+#C{
+    height:240px;
+    border-radius: 10%;
+}
+.afterhead{
+    background-color: rgba(183, 127, 236, 0.659);
+}
+.afterhead p{
+    color:antiquewhite;
+}

@@ -1,0 +1,32 @@
+figure{
+    border:1px solid black;
+    width:150px;
+    text-align: center;
+    background-color: lightgray;
+    box-shadow: 0 0 15px black;
+    border-radius:10%;
+    display: inline-block;
+    margin:10px;
+    justify-items: center;
+}
+form figure img{
+    width:100%;
+    border-radius:7%;
+    cursor: pointer;
+}
+form figure figcaption{
+    padding:5px 20px;
+    font-size:20px;
+}
+#P{
+    height:100px;
+    border-radius:10%;
+}
+#D{
+    height:120px;
+    border-radius: 10%;
+}
+#C{
+    height:120px;
+    border-radius: 10%;
+}
